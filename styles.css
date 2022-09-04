@@ -69,12 +69,13 @@
     text-decoration: line-through;
   }
   .delete {
-    height: 28px;
+      height: 28px;
       padding: 5px 0px;
       border-radius: 3px;
   }
   .delete:hover {
-    background: #f2f2f2;
+    box-shadow: 1px 5px 10px #d37777;
+    opacity: 0.8;
     cursor: pointer;
   }
   h1 {
